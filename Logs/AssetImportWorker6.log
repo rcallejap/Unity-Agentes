@@ -1,0 +1,577 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7869 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+57118
+Successfully changed project path to: C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes
+C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 207.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   Intel
+    VRAM:     3934 MB
+    Driver:   26.20.100.8141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018757 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 218.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1989ms)
+		BeginReloadAssembly (343ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1297ms)
+			LoadAssemblies (333ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (219ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (390ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021791 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\anafe\OneDrive\Documents\GitHub\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anafe\OneDrive\Documents\GitHub\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 17.464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (17467ms)
+		BeginReloadAssembly (522ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (16300ms)
+			LoadAssemblies (11101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (703ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (4351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (954ms)
+				ProcessInitializeOnLoadMethodAttributes (3118ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (147.3 KB). Loaded Objects now: 4221.
+Memory consumption went from 135.7 MB to 135.5 MB.
+Total: 7.581100 ms (FindLiveObjects: 0.373400 ms CreateObjectMapping: 0.243200 ms MarkObjects: 6.581000 ms  DeleteObjects: 0.380200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1730950.094841 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big
+  artifactKey: Guid(8571608aaad64e44ca2353e0eddc67db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big using Guid(8571608aaad64e44ca2353e0eddc67db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8055cb3e90e4cbf1aa9f1786a11c9d') in 0.030563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_E_Leaves03.prefab
+  artifactKey: Guid(dec4450be21d021449756129e0524725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_E_Leaves03.prefab using Guid(dec4450be21d021449756129e0524725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a82d472c4f3a6fc07dea8309db7030') in 0.472138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Foliage/Bushes
+  artifactKey: Guid(502b31cac7ee00c4589519b6d226ba4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Foliage/Bushes using Guid(502b31cac7ee00c4589519b6d226ba4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c865be99665e88dd987831566ffd26ad') in 0.020655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_C.prefab
+  artifactKey: Guid(204601f7f986c204c9e27d4285f4c425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_C.prefab using Guid(204601f7f986c204c9e27d4285f4c425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4af3e3c9edafda46f79a095e90b72d5') in 0.092685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_B_V01.prefab
+  artifactKey: Guid(55ec860d4caf24541898e3ee68c376f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_B_V01.prefab using Guid(55ec860d4caf24541898e3ee68c376f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5805739bde0cfe3d25efe789a794cf3c') in 0.031522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_A.prefab
+  artifactKey: Guid(3464b129474a7fd469ad1c0f4836ae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_A.prefab using Guid(3464b129474a7fd469ad1c0f4836ae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117f3d3faef2203bfec0d2061bf2b6e8') in 0.035555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_D.prefab
+  artifactKey: Guid(fc6387543ec400741a7191bb3032d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_D.prefab using Guid(fc6387543ec400741a7191bb3032d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e52483a19a508fa8fa3bd35c54f7b77') in 0.022008 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\anafe\OneDrive\Documents\GitHub\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anafe\OneDrive\Documents\GitHub\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3958ms)
+		BeginReloadAssembly (1263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (57ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (487ms)
+		EndReloadAssembly (2297ms)
+			LoadAssemblies (528ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (808ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (838ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (459ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3733 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (123.0 KB). Loaded Objects now: 4233.
+Memory consumption went from 138.0 MB to 137.9 MB.
+Total: 11.784800 ms (FindLiveObjects: 0.515700 ms CreateObjectMapping: 0.446800 ms MarkObjects: 10.552300 ms  DeleteObjects: 0.267500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3775.947820 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps
+  artifactKey: Guid(ca1a2c87f75c3e141ae9d5afdef0100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps using Guid(ca1a2c87f75c3e141ae9d5afdef0100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18bceba5d9688db88e7b8c049d47cda') in 0.025791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps/SewerCap_B.prefab
+  artifactKey: Guid(91f1e76099c83554f834694bd8cacdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps/SewerCap_B.prefab using Guid(91f1e76099c83554f834694bd8cacdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e60973010924efa39035b9746fc9dc') in 0.295163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.152808 seconds.
+  path: Assets/WhiteCity
+  artifactKey: Guid(e18a84dc8e3df8343a30f47d9ec658e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity using Guid(e18a84dc8e3df8343a30f47d9ec658e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4475e169960a7db4c8f7747cbc67a8') in 0.025574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.670929 seconds.
+  path: Assets/WhiteCity/Prefabs
+  artifactKey: Guid(8db2e67966e6ffe4ab303900b15f86a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs using Guid(8db2e67966e6ffe4ab303900b15f86a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3322d87e0d19b08253565b93086129e') in 0.016114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.104251 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings
+  artifactKey: Guid(2682b994974452d4394e541983fa7e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings using Guid(2682b994974452d4394e541983fa7e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfaa83c111b1c935f19cfb5454164ec') in 0.023267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/3.1.prefab
+  artifactKey: Guid(04c19027b30bcaa489b3ec4b42040dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/3.1.prefab using Guid(04c19027b30bcaa489b3ec4b42040dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e175bf5be979d3fd083147daab5c16') in 0.063963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/12.prefab
+  artifactKey: Guid(b331863b8ea6edc4e93fc5d6f83dbac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/12.prefab using Guid(b331863b8ea6edc4e93fc5d6f83dbac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1677cb4853e72e29ab2422b5a056af7') in 0.057564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/4.prefab
+  artifactKey: Guid(75ce498590d12b14b97bb91249eee61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/4.prefab using Guid(75ce498590d12b14b97bb91249eee61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9232c808543c5d2fd958eb29173611d') in 0.082620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/5.prefab
+  artifactKey: Guid(5268f3eea397dcb40925cb28a6e9ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/5.prefab using Guid(5268f3eea397dcb40925cb28a6e9ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da996496907ad676e95e3acce3462da6') in 0.137701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 387.815767 seconds.
+  path: Assets/WhiteCity/Textures/Buildings/1.png
+  artifactKey: Guid(32003ac298524ed4f9bb893d2269dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Buildings/1.png using Guid(32003ac298524ed4f9bb893d2269dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf38c610ff7dbccca25d532d72a7bbe') in 0.215658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/WhiteCity/Textures/Buildings/8.png
+  artifactKey: Guid(ba852b59c6ae3a74da474c5f4ad1935e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Buildings/8.png using Guid(ba852b59c6ae3a74da474c5f4ad1935e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906721729ba43b9d7b666c4a18d4609b') in 0.049862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/WhiteCity/Textures/Buildings/9.png
+  artifactKey: Guid(737a61236509b1a44a4de3627b7b03d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Buildings/9.png using Guid(737a61236509b1a44a4de3627b7b03d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03604d747311bce7ae6cf442b9b5951d') in 0.075398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/WhiteCity/Textures/Buildings/4-1.png
+  artifactKey: Guid(8282e4971a726e64982b4fec3a29e67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Buildings/4-1.png using Guid(8282e4971a726e64982b4fec3a29e67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc87bf340b29dc93a3a74fca869bb9dd') in 0.080564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/WhiteCity/Textures/Buildings/3.png
+  artifactKey: Guid(426137a77b8e3b64888c93516cb33ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Buildings/3.png using Guid(426137a77b8e3b64888c93516cb33ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39351a7adf5d6bb8e3fbc594f22a0f5') in 0.113131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.490652 seconds.
+  path: Assets/WhiteCity/Textures
+  artifactKey: Guid(c0ae8039715e97240a79dcce36469e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures using Guid(c0ae8039715e97240a79dcce36469e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a91173ff2a8a2159a3a6078ddc3441b') in 0.045026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.939536 seconds.
+  path: Assets/WhiteCity/Textures/Buildings
+  artifactKey: Guid(f38067aea2883b54a99335fa01b22ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Buildings using Guid(f38067aea2883b54a99335fa01b22ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a64e12fc2b67ece27c945da3c42464c') in 0.008684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.115292 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(771134b2f824e0c4e914c6ad79618db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(771134b2f824e0c4e914c6ad79618db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b6456223ac80b976b2acb85c94ca37') in 0.020204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.770887 seconds.
+  path: Assets/WhiteCity/Textures/Other
+  artifactKey: Guid(69dea8f6c1c90db4db4c46dea84c2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Other using Guid(69dea8f6c1c90db4db4c46dea84c2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0f393d78704279f5ed361c889b304a') in 0.014438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.544574 seconds.
+  path: Assets/WhiteCity/Textures/Roof
+  artifactKey: Guid(ed12335e438b9034090d1a63b4632aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Roof using Guid(ed12335e438b9034090d1a63b4632aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80360ab3e3b9fa832e5a2801a07b1b27') in 0.017848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WhiteCity/Textures/Roof/p3.png
+  artifactKey: Guid(f8eea88e60170414db5d8fdc34e6527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Roof/p3.png using Guid(f8eea88e60170414db5d8fdc34e6527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5b8268c18ba7d1aed6b9d4a9e76110') in 0.123160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/WhiteCity/Textures/Roof/p5-1.png
+  artifactKey: Guid(ec50faff23f099c48bf342bb3bcf274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Roof/p5-1.png using Guid(ec50faff23f099c48bf342bb3bcf274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca82218852e527f66145939c1bc09c8') in 0.039520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/WhiteCity/Textures/Roof/p2.PNG
+  artifactKey: Guid(38fe3005fffb8384997fcecde0a492f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Textures/Roof/p2.PNG using Guid(38fe3005fffb8384997fcecde0a492f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e75ce6ac5f6c5354e4a0c5847e7bb1') in 0.064277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.522633 seconds.
+  path: Assets/WhiteCity/Models
+  artifactKey: Guid(316ec03175cd0624888999c9e15e0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models using Guid(316ec03175cd0624888999c9e15e0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82085604122a31ea4c90290777f3477a') in 0.021349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.658875 seconds.
+  path: Assets/WhiteCity/Models/Buildings
+  artifactKey: Guid(a744737932857204a9704b146dba42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings using Guid(a744737932857204a9704b146dba42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acc6f4043a17e806eb2fcec376e7284') in 0.006892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WhiteCity/Models/Buildings/2-1.fbx
+  artifactKey: Guid(3745c28ede9bdf541bc2f0c5a7b3bfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/2-1.fbx using Guid(3745c28ede9bdf541bc2f0c5a7b3bfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf699c5b215bee175554bf9e4eb6680') in 0.096810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WhiteCity/Models/Buildings/7.fbx
+  artifactKey: Guid(6379b00f66e16cd49b9df04eece629a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/7.fbx using Guid(6379b00f66e16cd49b9df04eece629a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdf6f0a5d4700df6be6a1a0238a0e4b') in 0.046808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/WhiteCity/Models/Buildings/6.fbx
+  artifactKey: Guid(4151a6192219ff249b121c536513d8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/6.fbx using Guid(4151a6192219ff249b121c536513d8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cad685f8ef6b27d6a8654cc0b001f39') in 0.063053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/WhiteCity/Models/Buildings/2.fbx
+  artifactKey: Guid(df5f660a0ad6ab24f8a986c2a33b341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/2.fbx using Guid(df5f660a0ad6ab24f8a986c2a33b341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0857e52234027f29a9b9070e8f135d2') in 0.037273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/WhiteCity/Models/Buildings/8.fbx
+  artifactKey: Guid(45414ae893ef0d24aaa8d91a7d834868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/8.fbx using Guid(45414ae893ef0d24aaa8d91a7d834868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e516721400c32c36563e945f5981f5e2') in 0.071508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/WhiteCity/Models/Buildings/p5-4.fbx
+  artifactKey: Guid(a894c4c86d9e18f4d9d7ccd1a66399d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/p5-4.fbx using Guid(a894c4c86d9e18f4d9d7ccd1a66399d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd2538c931c9b4b4d2f556dda4faa18') in 0.053067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.672523 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials
+  artifactKey: Guid(3957b53ffa402544eb15b89022430caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials using Guid(3957b53ffa402544eb15b89022430caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fad05ef42f32a8623312d735565fae8') in 0.007953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/05 (9).mat
+  artifactKey: Guid(529c0cfbd00130d47800f21bc08f039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/05 (9).mat using Guid(529c0cfbd00130d47800f21bc08f039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38e5e4255e9ec1b9b74831849912251') in 0.135467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b12.mat
+  artifactKey: Guid(ea5cf619c570a71499cf551b531745f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b12.mat using Guid(ea5cf619c570a71499cf551b531745f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b25ddfbb53f3d2b7f2b19d4983a12c') in 0.035835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/n2.mat
+  artifactKey: Guid(ecc273dd43817404cb163915ed2966ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/n2.mat using Guid(ecc273dd43817404cb163915ed2966ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91e506f5f65565cb0efa0b1419d2c5c') in 0.036089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b9-1.mat
+  artifactKey: Guid(abaff2e6c6f61e248a1de0b7581c0ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b9-1.mat using Guid(abaff2e6c6f61e248a1de0b7581c0ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996b1c3d45a662f50cc8e6ffc9af4724') in 0.056605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b5.mat
+  artifactKey: Guid(f7d66f5a5cf854747a6809479c3564ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b5.mat using Guid(f7d66f5a5cf854747a6809479c3564ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00f690988123f70cec1b1537feb2422') in 0.043995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/orange.mat
+  artifactKey: Guid(e25753f11202b824d8204720b0b26e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/orange.mat using Guid(e25753f11202b824d8204720b0b26e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c608c3cdfeb44a35d1d7f0c058b523f') in 0.060304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/h2.mat
+  artifactKey: Guid(5ecc3b75eb52b154db3ada675106c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/h2.mat using Guid(5ecc3b75eb52b154db3ada675106c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b22f1595407506ebebfa16a5d155c79') in 0.097761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b6.mat
+  artifactKey: Guid(8d6a8ab164fd36340871beae26805e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b6.mat using Guid(8d6a8ab164fd36340871beae26805e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9efafe8a773d28b45634a28d3b61790') in 0.126170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/m2.mat
+  artifactKey: Guid(ec8973e640397c74f886fa21123687ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/m2.mat using Guid(ec8973e640397c74f886fa21123687ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ab7f28493d8169461c4dd8e16045f7') in 0.056664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/5.mat
+  artifactKey: Guid(cf5ec46cca0e3784c8e8ed2adc07d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/5.mat using Guid(cf5ec46cca0e3784c8e8ed2adc07d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e14f8e6be4384813c24d8834dc86c6') in 0.044998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b2-2.mat
+  artifactKey: Guid(00d0da6cbf30c1440bce2c1a4dfea6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b2-2.mat using Guid(00d0da6cbf30c1440bce2c1a4dfea6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1f026723755129d1ebb52fd4a6da3e') in 0.042492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b5-1.mat
+  artifactKey: Guid(a31446a010d7d694da579576b289bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b5-1.mat using Guid(a31446a010d7d694da579576b289bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd92b0e792bd76469d4d916911dfe8ac') in 0.042703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/Wall.mat
+  artifactKey: Guid(710e4b660b5be7243a65dcba43c58953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/Wall.mat using Guid(710e4b660b5be7243a65dcba43c58953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea290429d45d09d5ca5d18127b89c3e8') in 0.038389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b9-2.mat
+  artifactKey: Guid(aea4367c3439bfa4cb701b038e72d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b9-2.mat using Guid(aea4367c3439bfa4cb701b038e72d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cadec3221ffe52ee19163d049e6d068') in 0.052896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/4-2.mat
+  artifactKey: Guid(475d2e2c3ff9b3e4eb3d9d59f2e072a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/4-2.mat using Guid(475d2e2c3ff9b3e4eb3d9d59f2e072a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ccefe1b7d362a4aef520611f7e5168') in 0.056595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b1.mat
+  artifactKey: Guid(f632b1c8557e32d43bff941c3a868a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b1.mat using Guid(f632b1c8557e32d43bff941c3a868a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441e2df8b10ca2b8b69037ef09fd744c') in 0.047750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/05 (8).mat
+  artifactKey: Guid(0de8f807e4effcf488cd48d784a3a7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/05 (8).mat using Guid(0de8f807e4effcf488cd48d784a3a7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b95a7dc91f171920dca27abf636182') in 0.037898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 448.650349 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b3-1.mat
+  artifactKey: Guid(0cc39ea3a36172d439a872bcdf8c3d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b3-1.mat using Guid(0cc39ea3a36172d439a872bcdf8c3d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a459dfc0e69be865a98eefa9db238ce') in 0.048945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b7.mat
+  artifactKey: Guid(94b8ea75ad770ae4a8692954d7b3e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b7.mat using Guid(94b8ea75ad770ae4a8692954d7b3e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc10d5d604a3f7400d260270f499a24') in 0.060733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b4-3.mat
+  artifactKey: Guid(08a700b757b21744089a6ed03a436030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b4-3.mat using Guid(08a700b757b21744089a6ed03a436030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0ca48b8138e3e9dcd78c8acc81253b') in 0.060783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b4-1.mat
+  artifactKey: Guid(16571a3bb7d80e3408d5bb613d38a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b4-1.mat using Guid(16571a3bb7d80e3408d5bb613d38a483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8552eb2b590c2c16aff6c1f8bc059ad') in 0.049014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WhiteCity/Models/Buildings/Materials/b4-2.mat
+  artifactKey: Guid(0e5d9e87db75fbb41be0cdc300f654e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Models/Buildings/Materials/b4-2.mat using Guid(0e5d9e87db75fbb41be0cdc300f654e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde2dc51d292a5df063e1baf7d8a2fc3') in 0.059724 seconds 

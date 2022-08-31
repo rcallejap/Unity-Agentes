@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 32490 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7869 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/oscar/OneDrive/Documentos/2022/Semana Tec Github/Unity-Agentes
+C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49845
-Successfully changed project path to: C:/Users/oscar/OneDrive/Documentos/2022/Semana Tec Github/Unity-Agentes
-C:/Users/oscar/OneDrive/Documentos/2022/Semana Tec Github/Unity-Agentes
+53742
+Successfully changed project path to: C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes
+C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,111 +47,112 @@ C:/Users/oscar/OneDrive/Documentos/2022/Semana Tec Github/Unity-Agentes
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 342.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 151.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/oscar/OneDrive/Documentos/2022/Semana Tec Github/Unity-Agentes/Assets
+[Subsystems] Discovering subsystems at path C:/Users/anafe/OneDrive/Documents/GitHub/Unity-Agentes/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
     Vendor:   Intel
-    VRAM:     16245 MB
-    Driver:   27.20.100.9749
+    VRAM:     3934 MB
+    Driver:   26.20.100.8141
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031235 seconds.
+Registered in 0.014179 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 343.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 187.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.267 seconds
+- Completed reload, in  1.272 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2268ms)
-		BeginReloadAssembly (247ms)
+	ReloadAssembly (1273ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1685ms)
-			LoadAssemblies (237ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (892ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (968ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (634ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (344ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (187ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (165ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016597 seconds.
+Registered in 0.011054 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\oscar\OneDrive\Documentos\2022\Semana Tec Github\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\oscar\OneDrive\Documentos\2022\Semana Tec Github\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anafe\OneDrive\Documents\GitHub\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\anafe\OneDrive\Documents\GitHub\Unity-Agentes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.680 seconds
+- Completed reload, in  2.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3683ms)
-		BeginReloadAssembly (359ms)
+	ReloadAssembly (2142ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2873ms)
-			LoadAssemblies (236ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1623ms)
+			LoadAssemblies (338ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (960ms)
+			SetupTypeCache (369ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (173ms)
-			SetupLoadedEditorAssemblies (1330ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (719ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (354ms)
-				ProcessInitializeOnLoadAttributes (844ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (452ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (155.4 KB). Loaded Objects now: 4213.
-Memory consumption went from 134.0 MB to 133.9 MB.
-Total: 12.467400 ms (FindLiveObjects: 1.156000 ms CreateObjectMapping: 0.522000 ms MarkObjects: 10.037600 ms  DeleteObjects: 0.746400 ms)
+Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (147.4 KB). Loaded Objects now: 4221.
+Memory consumption went from 135.7 MB to 135.5 MB.
+Total: 5.630000 ms (FindLiveObjects: 0.486000 ms CreateObjectMapping: 0.329000 ms MarkObjects: 4.559900 ms  DeleteObjects: 0.253500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -159,85 +160,205 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 427929.406336 seconds.
-  path: Assets/ModularLowpolyStreetsFree/FBX/Bench.fbx
-  artifactKey: Guid(19f535191901b8f4cadc26f7ebcff86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/FBX/Bench.fbx using Guid(19f535191901b8f4cadc26f7ebcff86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf43f40afddd61af6d9cbd7d3a0321a') in 9.210053 seconds 
+  Time since last request: 1715342.433231 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_A.prefab
+  artifactKey: Guid(ea055b41d57bcfa4f933e17644a305ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_A.prefab using Guid(ea055b41d57bcfa4f933e17644a305ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912757afe489c1623a3f14094bbb3360') in 0.255899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_C.prefab
+  artifactKey: Guid(c8fd2f6b2033af643b3fbe62dba8316f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_C.prefab using Guid(c8fd2f6b2033af643b3fbe62dba8316f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a10158eb507d70781c5cd89c5f601b') in 0.090943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads
+  artifactKey: Guid(85cc87fcf2b5b24438d0e0b54c5a11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads using Guid(85cc87fcf2b5b24438d0e0b54c5a11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c337a4244d1a097f9bd7cc5395b8cc15') in 0.025207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_C_A.prefab
+  artifactKey: Guid(349b813d00b77df41b5431df22c4012c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_C_A.prefab using Guid(349b813d00b77df41b5431df22c4012c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e33155c1d006371d05d31f50360e14') in 0.073054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_A.prefab
+  artifactKey: Guid(46aceb8c4fbd8a3478e3bb41629a9afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_A.prefab using Guid(46aceb8c4fbd8a3478e3bb41629a9afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acab4d77d6e80cbcdba09dc470effc1') in 0.073308 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000061 seconds.
-  path: Assets/ModularLowpolyStreetsFree/FBX/Nature.fbx
-  artifactKey: Guid(71b44a86250cd7c4e9a9975b56b36bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/FBX/Nature.fbx using Guid(71b44a86250cd7c4e9a9975b56b36bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c52a8e7db4bf27260489256546ddb3a') in 0.137765 seconds 
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_Double_B_B.prefab
+  artifactKey: Guid(e544891603a68eb41a8c40ea47764ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_Double_B_B.prefab using Guid(e544891603a68eb41a8c40ea47764ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c8743bfa25d1f9dcb7c739eb5b0c7') in 0.072057 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/ModularLowpolyStreetsFree/FBX/Other.fbx
-  artifactKey: Guid(1ee711c742045db4b974dba96af4d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/FBX/Other.fbx using Guid(1ee711c742045db4b974dba96af4d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e5650c0741c981318e011876c930f7') in 0.284989 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_B.prefab
+  artifactKey: Guid(36d6331372523c942ae5c5978bcd7cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_B.prefab using Guid(36d6331372523c942ae5c5978bcd7cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78afb6b0e0e197e374d37d088db67645') in 0.073017 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/ModularLowpolyStreetsFree/FBX/Roads.fbx
-  artifactKey: Guid(8f631a0560592c44890f879375e84e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/FBX/Roads.fbx using Guid(8f631a0560592c44890f879375e84e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f10e5dcaccf69f201a2f6667704fce1') in 0.604787 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_B_A.prefab
+  artifactKey: Guid(d5fa7c28cb386fd4a9966aebe07b45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_B_A.prefab using Guid(d5fa7c28cb386fd4a9966aebe07b45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3461aca78487dfeb48bd8abd962731') in 0.093138 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Materials/Other
-  artifactKey: Guid(bdd3f9fb6405126469fa307db5518705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Materials/Other using Guid(bdd3f9fb6405126469fa307db5518705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a59639580bbc7d94a1f2504a35cf4f') in 0.004898 seconds 
+  Time since last request: 0.000107 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_D.prefab
+  artifactKey: Guid(b296d935b89065c40908341d9004426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_D.prefab using Guid(b296d935b89065c40908341d9004426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca288338d5420a70250f543b7f2aab3') in 0.102697 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/ModularLowpolyStreetsFree/FBX/TrafficLights.fbx
-  artifactKey: Guid(116fe633af9b7dc4a81956394e891e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/FBX/TrafficLights.fbx using Guid(116fe633af9b7dc4a81956394e891e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd727178c44bc158f01c50a80b5606e57') in 1.410493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 382.643590 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other
-  artifactKey: Guid(ab3b11ceea5fb494eada90470eca9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other using Guid(ab3b11ceea5fb494eada90470eca9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273ea22c750ce11c48d41f2ac241b8e5') in 0.008726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041028 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Bench_1.prefab
-  artifactKey: Guid(f3e46b4b7b1590a4c87983b3645c9a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Bench_1.prefab using Guid(f3e46b4b7b1590a4c87983b3645c9a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dd01931a2f0a3938bb9035c79f3ab1') in 0.072481 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_Double_A.prefab
+  artifactKey: Guid(d7d436d613cf3c04391992a34ceb777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_Double_A.prefab using Guid(d7d436d613cf3c04391992a34ceb777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d113922ee01dadc7498752a96fcbc6b') in 0.075744 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole_traffic_light.prefab
-  artifactKey: Guid(d037f104ae100f4419eba5cca18510ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole_traffic_light.prefab using Guid(d037f104ae100f4419eba5cca18510ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7db1cad0ccd45db7ea9fcb76e9f4d9') in 1.214284 seconds 
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_B.prefab
+  artifactKey: Guid(de05db20770e11c4cb0ed895f43a95c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_B.prefab using Guid(de05db20770e11c4cb0ed895f43a95c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe1bec4c45e435cea494a077890734e') in 0.061701 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Sewer_grill.prefab
-  artifactKey: Guid(1d16f3802fbd9ae488e8ddc41eea5b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Sewer_grill.prefab using Guid(1d16f3802fbd9ae488e8ddc41eea5b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87568908c7b7f811c7428d45a41ca6f8') in 0.046105 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets
+  artifactKey: Guid(6a02142ce9de8eb46b8ec310af2a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets using Guid(6a02142ce9de8eb46b8ec310af2a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f24c19ee600941c1209809b92b3302') in 0.023200 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole1.prefab
-  artifactKey: Guid(8dd6e4c395c47934d96ec25c17ccbb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Pole1.prefab using Guid(8dd6e4c395c47934d96ec25c17ccbb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b58268d8428e553d1740eead97e59f') in 0.050808 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_BusStop.prefab
+  artifactKey: Guid(83ed90dae17b7494b8dc65ff572d8897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_BusStop.prefab using Guid(83ed90dae17b7494b8dc65ff572d8897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde85a45f0246965aec40ad3ec36aa0f') in 0.074694 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Sewer_hatch.prefab
-  artifactKey: Guid(cf9f743314e83f945a022e4e1f773e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Sewer_hatch.prefab using Guid(cf9f743314e83f945a022e4e1f773e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafe7987ee010f0ead9f1469656a1b64') in 0.040915 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight.prefab
+  artifactKey: Guid(0880d9ac631f24f409114af2781b3480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight.prefab using Guid(0880d9ac631f24f409114af2781b3480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af281442896dbd0bf66d9d460ad61884') in 0.070435 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Trash_can_1.prefab
-  artifactKey: Guid(5621aa4915c640b4da9c0a273c74e932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Trash_can_1.prefab using Guid(5621aa4915c640b4da9c0a273c74e932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2a3cd4878a38f457300ce679a90a2c') in 0.047142 seconds 
+  Time since last request: 5.960104 seconds.
+  path: Assets/Materials/calle 1.mat
+  artifactKey: Guid(fc138f961c01815419484eb2a97a4239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/calle 1.mat using Guid(fc138f961c01815419484eb2a97a4239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac790be431b38d7adcbd571037d780b') in 0.225494 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/ModularLowpolyStreetsFree/Prefabs/Other/Hydrant.prefab
-  artifactKey: Guid(03d296105c3a0f84cb5140874c2617d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Other/Hydrant.prefab using Guid(03d296105c3a0f84cb5140874c2617d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa6cbaf683636595a9eddd01e54148d') in 0.049686 seconds 
+  Time since last request: 1.552145 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials
+  artifactKey: Guid(f654b0c935390cb4da8518c7cc3ee8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials using Guid(f654b0c935390cb4da8518c7cc3ee8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2414c471101f9a81e38edf0b51767') in 0.028803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.476334 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads
+  artifactKey: Guid(385b2f7d198470148bf6a19e72036d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads using Guid(385b2f7d198470148bf6a19e72036d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57aba37e41ea98fdc1b9d11c61d153e') in 0.020966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.043845 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Border.mat
+  artifactKey: Guid(49658c6e81bdb5542adfcb43a4324d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Border.mat using Guid(49658c6e81bdb5542adfcb43a4324d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fc5ead1c3aef94911f2d30997376b2') in 0.103999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-walk.mat
+  artifactKey: Guid(206d16026d8514549bfa91a62e6a7f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-walk.mat using Guid(206d16026d8514549bfa91a62e6a7f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e759e4abca22f92e8610bc2c9c4074') in 0.110428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Pavement.mat
+  artifactKey: Guid(ad9b23eb22f4c5d4eab51aaec94fda13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Pavement.mat using Guid(ad9b23eb22f4c5d4eab51aaec94fda13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262ac7af0ade225b093769f93e62e9b6') in 0.082799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-walk-2.mat
+  artifactKey: Guid(6e29508a3a906694a8ac20b7ddae7087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Crossroads-1-lines-walk-2.mat using Guid(6e29508a3a906694a8ac20b7ddae7087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39209ae19962cef3d6f3f3d8b2e634e3') in 0.075303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Road-1-line.mat
+  artifactKey: Guid(b78fe0de0f0a3f64f8b4f76f3b06a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Road-1-line.mat using Guid(b78fe0de0f0a3f64f8b4f76f3b06a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f36322ab1c749230b836b7b57789204') in 0.049966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1500.053277 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Road-1-line.mat
+  artifactKey: Guid(b78fe0de0f0a3f64f8b4f76f3b06a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Road-1-line.mat using Guid(b78fe0de0f0a3f64f8b4f76f3b06a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f605cf0fedf377058a78c2bf8e8a0b70') in 0.243179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 800.143457 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures
+  artifactKey: Guid(485277e4310bcdb42a0a94bf81921338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures using Guid(485277e4310bcdb42a0a94bf81921338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8e86e62b04c2f292220806d4784992') in 0.025947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-circ_Normal.png
+  artifactKey: Guid(f7c73d20fcb30194580917eae6199a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-circ_Normal.png using Guid(f7c73d20fcb30194580917eae6199a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae365ecf38e38028e0d3ca3c88f189a') in 0.502986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Road-1-line-turn-1_Normal.png
+  artifactKey: Guid(ac6806ca25b8d8d44b74be5c18c560c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Road-1-line-turn-1_Normal.png using Guid(ac6806ca25b8d8d44b74be5c18c560c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70406a57e33c924e60081974dc80d650') in 0.054854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Road-1-line-turn-1_AlbedoGloss.png
+  artifactKey: Guid(04feb797db3af6c429bbfad006fa00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Road-1-line-turn-1_AlbedoGloss.png using Guid(04feb797db3af6c429bbfad006fa00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b74ac8f5384fac4864e2d62188cff0') in 0.071979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_AlbedoGloss.png
+  artifactKey: Guid(85726c6f2d7dcc9419744e1a61daacad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_AlbedoGloss.png using Guid(85726c6f2d7dcc9419744e1a61daacad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9e6b41ea648e556619ebea91a3dbc3') in 0.064924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-walk_AlbedoGloss.png
+  artifactKey: Guid(7a4865adc0775244680dd0944a0424c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-walk_AlbedoGloss.png using Guid(7a4865adc0775244680dd0944a0424c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b044d1e43856ab1c8d0afbe3212c71') in 0.056469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-circ_AlbedoGloss.png
+  artifactKey: Guid(4f8e615bb9ba3a240af2a4d892bda8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-circ_AlbedoGloss.png using Guid(4f8e615bb9ba3a240af2a4d892bda8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c122197fc0caf7738d96197c7dfde31') in 0.059418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_Normal.png
+  artifactKey: Guid(fab8e5ca7774fa041a5d7cd3374e9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Crossroads-1-lines-2-walk_Normal.png using Guid(fab8e5ca7774fa041a5d7cd3374e9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1644558ce66cd6a78fd03c41e08a8f') in 0.060919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Border_Normal.png
+  artifactKey: Guid(5d6d0cf21efda314ea33c79250a847ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Border_Normal.png using Guid(5d6d0cf21efda314ea33c79250a847ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aa930b7f349003b20145050ef7553a') in 0.052689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Road-1-line_AlbedoGloss.png
+  artifactKey: Guid(673f0ecbe7e97d54180a40c34685f11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Road-1-line_AlbedoGloss.png using Guid(673f0ecbe7e97d54180a40c34685f11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f0feae6e574f90b92da767f5b3cda8') in 0.061433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Pavement_AlbedoGloss.png
+  artifactKey: Guid(7407d73a62bba1a4b8b183b3caf851c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Materials/Roads/Textures/Pavement_AlbedoGloss.png using Guid(7407d73a62bba1a4b8b183b3caf851c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1562ffbaef2c3d58526c049a8bc0a680') in 0.074733 seconds 
