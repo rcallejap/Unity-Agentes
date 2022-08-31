@@ -359,6 +359,8 @@
 "Assets/CharacterNavController.cs"
 "Assets/WaypointNav.cs"
 "Assets/Waypoints.cs"
+"Assets/WhiteCity/Textures/Other/Offer/ALIyerEdonAssets_Lighting.cs"
+"Assets/WhiteCity/Textures/Other/Offer/LightingTools_Offer.cs"
 -langversion:9.0
 
 /deterministic
