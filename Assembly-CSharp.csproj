@@ -38,9 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets\CharacterNavController.cs" />
      <Compile Include="Assets\WaypointNav.cs" />
+     <Compile Include="Assets\WhiteCity\Textures\Other\Offer\ALIyerEdonAssets_Lighting.cs" />
      <Compile Include="Assets\Waypoints.cs" />
      <Compile Include="Assets\WhiteCity\Textures\Other\Offer\LightingTools_Offer.cs" />
-     <Compile Include="Assets\WhiteCity\Textures\Other\Offer\ALIyerEdonAssets_Lighting.cs" />
      <None Include="Assets\Parkgarage\parkinggarage_readMe.txt" />
      <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
      <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
