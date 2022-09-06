@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 27
+  controlID: 60
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 26
+  controlID: 73
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -339,10 +339,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 3911.2}
-      m_SelectedIDs: dabeffff
-      m_LastClickedID: -16678
-      m_ExpandedIDs: 36fbfffff85e0000
+      scrollPos: {x: 0, y: 64}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: baf2ffff60f7ffff36fbfffff85e0000d05f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -448,22 +448,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Parkgarage/Prefabs/bench
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Parkgarage/Prefabs/bench
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\anafe\OneDrive\Documents\GitHub\Unity-Agentes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 949c0000
-    m_LastClickedID: 40084
-    m_ExpandedIDs: 00000000949c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 163}
+    m_SelectedIDs: 82b30000
+    m_LastClickedID: 45954
+    m_ExpandedIDs: 00000000949c0000a29c0000a89c0000b29c0000b29e000060b3000066b300007cb3000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,8 +672,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -694,7 +694,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -864,9 +864,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -31.77968, y: 1.8097935, z: 31.361559}
+    m_Target: {x: -10.418129, y: -16.940582, z: 13.098623}
     speed: 2
-    m_Value: {x: -31.77968, y: 1.8097935, z: 31.361559}
+    m_Value: {x: -10.418129, y: -16.940582, z: 13.098623}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -913,13 +913,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.47920704, y: 0.31080195, z: -0.18630575, w: -0.79941887}
+    m_Target: {x: -0.2942505, y: 0.68440396, z: -0.56315297, w: -0.35761297}
     speed: 2
-    m_Value: {x: -0.4815989, y: 0.3102389, z: -0.18723571, w: -0.79797065}
+    m_Value: {x: -0.30431345, y: 0.6764352, z: -0.56172, w: -0.36646903}
   m_Size:
-    m_Target: 16.827229
+    m_Target: 47.065594
     speed: 2
-    m_Value: 16.827229
+    m_Value: 46.977512
   m_Ortho:
     m_Target: 0
     speed: 2
