@@ -12,6 +12,7 @@ using UnityEngine.Networking;
 public class AgentController : MonoBehaviour
 {
     List<List<float>> positions;
+    List<List<float>> pastPositions;
     public GameObject agent1Prefab;
     public GameObject agent2Prefab;
     public GameObject agent3Prefab;
@@ -72,6 +73,7 @@ public class AgentController : MonoBehaviour
                     //Debug.Log(pos[0]);
                                         
                 }
+                pastPositions = positions;
                 positions= newPositions;
             }
         }
@@ -114,16 +116,27 @@ public class AgentController : MonoBehaviour
 #endif
 
             for(int i = 0; i < 500; i++){
-                agents[i].transform.localPosition  = Vector3.zero;
+                agents[i].transform.localPosition  =new Vector3(0,100,0);
                 
             } 
-            Debug.Log("lenght " + positions.Count);
-            for (int i = 0; i < positions.Count; i++)
+            Debug.Log("lenght " + pastPositions.Count);
+            for (int i = 0; i < pastPositions.Count; i++)
             {
-                Debug.Log(positions[i][0]+ " " + positions[i][1] + " " + positions[i][2] + " " + positions[i][3]);
-                int car = (int)positions[i][0];
-                agents[car].transform.localPosition = new Vector3(positions[i][1], positions[i][2], positions[i][3]);
+                Debug.Log(pastPositions[i][0]+ " " + pastPositions[i][1] + " " + pastPositions[i][2] + " " + pastPositions[i][3]);
+                int car = (int)pastPositions[i][0];
+                agents[car].transform.localPosition = new Vector3(pastPositions[i][1], pastPositions[i][2], pastPositions[i][3]);
             }
+             for (int i = 0; i < positions.Count; i++){
+                int car = (int)positions[i][0];
+                //Vector3 direction = (positions[i][0] - agents[car].localPosition).normalized;
+                //targetRotation = Quaternion.LookRotation(direction);
+                //targetRotation *= Quaternion.Euler(0,90,0);
+
+               agents[car].transform.eulerAngles = new Vector3(positions[i][1], positions[i][2], positions[i][3]);
+            }
+           
+
+
             
         }
     }
