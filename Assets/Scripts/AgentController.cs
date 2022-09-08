@@ -95,6 +95,7 @@ public class AgentController : MonoBehaviour
             {
                 agents[i] = Instantiate(agent1Prefab, Vector3.zero, Quaternion.identity);
             }
+            agents[i].transform.localScale = new Vector3(50, 50, 50);
         }
 
     }
@@ -103,41 +104,40 @@ public class AgentController : MonoBehaviour
     void Update()
     {
 
-        timer -= Time.deltaTime;
-        dt = 1.0f - (timer / timeToUpdate);
 
-        if(timer < 0.1f)
-        {
 #if UNITY_EDITOR
-            timer = timeToUpdate; // reset the timer
-            Vector3 fakePos = new Vector3(3.44f, 0, -15.707f);
-            string json = EditorJsonUtility.ToJson(fakePos);
-            StartCoroutine(SendData(json));
+        timer = timeToUpdate; // reset the timer
+        Vector3 fakePos = new Vector3(3.44f, 0, -15.707f);
+        string json = EditorJsonUtility.ToJson(fakePos);
+        StartCoroutine(SendData(json));
 #endif
 
-            for(int i = 0; i < 500; i++){
-                agents[i].transform.localPosition  =new Vector3(0,100,0);
-                
-            } 
-            Debug.Log("lenght " + pastPositions.Count);
-            for (int i = 0; i < pastPositions.Count; i++)
-            {
-                Debug.Log(pastPositions[i][0]+ " " + pastPositions[i][1] + " " + pastPositions[i][2] + " " + pastPositions[i][3]);
-                int car = (int)pastPositions[i][0];
-                agents[car].transform.localPosition = new Vector3(pastPositions[i][1], pastPositions[i][2], pastPositions[i][3]);
-            }
-             for (int i = 0; i < positions.Count; i++){
-                int car = (int)positions[i][0];
-                //Vector3 direction = (positions[i][0] - agents[car].localPosition).normalized;
-                //targetRotation = Quaternion.LookRotation(direction);
-                //targetRotation *= Quaternion.Euler(0,90,0);
-
-               agents[car].transform.eulerAngles = new Vector3(positions[i][1], positions[i][2], positions[i][3]);
-            }
-           
-
-
+        for(int i = 0; i < 500; i++){
+            agents[i].transform.localPosition  =new Vector3(0,100,0);
             
+        } 
+        Debug.Log("lenght " + pastPositions.Count);
+        for (int i = 0; i < pastPositions.Count; i++)
+        {
+            Debug.Log(pastPositions[i][0]+ " " + pastPositions[i][1] + " " + pastPositions[i][2] + " " + pastPositions[i][3]);
+            int car = (int)pastPositions[i][0];
+            agents[car].transform.localPosition = new Vector3(pastPositions[i][1], pastPositions[i][2], pastPositions[i][3]);
+        }
+        for (int i = 0; i < positions.Count; i++)
+        {
+            int car = (int)positions[i][0];
+            //agents[car].transform.eulerAngles = new Vector3(positions[i][1], positions[i][2], positions[i][3]);
+            //Rotacion
+            Vector3 targetPos = new Vector3(positions[i][1], positions[i][2], positions[i][3]);
+            Vector3 currPost = agents[car].transform.localPosition;
+            if (targetPos!=currPost)
+            {
+                Vector3 direction = (targetPos - currPost).normalized;
+                Quaternion targetRotation = Quaternion.LookRotation(direction);
+                targetRotation *= Quaternion.Euler(0,-90,0);
+                
+                agents[car].transform.rotation = Quaternion.Slerp(agents[car].transform.rotation, targetRotation,Time.deltaTime * 2);
+            }
         }
     }
 }
