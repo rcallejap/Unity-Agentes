@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - agent1Prefab: {fileID: 193646, guid: cd5a615f62153e041b89bd8f466af5ab, type: 3}
   - agent2Prefab: {fileID: 116448, guid: 039320a8f4b60c445acfae631ac0214f, type: 3}
-  - agent3Prefab: {fileID: 100000, guid: 80492071631ffe442bdaacf7b2e4a9f3, type: 3}
+  - agent3Prefab: {fileID: 140570, guid: 9f14ffa559e6d214db9b0ec960921311, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
