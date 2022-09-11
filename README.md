@@ -13,7 +13,7 @@ Programa en Unity que crea un modelo a escala del distrito Tec. Es complemento d
   <li> Descargar Pygame desde la terminal</li>
   <li>Importar los dos repositorios del proyecto:</li>
   <ul>
-    <li>https://github.com/Fuentes2395/PythonModelTrafficTec</li>
+    <li>https://github.com/rcallejap/Python-server-trafic-simulation</li>
     <li>https://github.com/rcallejap/Unity-Agentes</li>
   </ul>
   <li>Correr primeramente el programa en python (PythonModelTrafficTec) y después el de Unity (Unity-Agentes)</li>
