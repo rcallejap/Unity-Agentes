@@ -6,6 +6,7 @@ Roberto Calleja Pedraza A01024834 / Andrés Fuentes Alanís A01177466 / Andrea C
  
 Programa en Unity que crea un modelo a escala del distrito Tec. Es complemento del programa https://github.com/Fuentes2395/PythonModelTrafficTec
 
+<img src = "img_rectoria.PNG">
 
 
 Referencias y paquetes importados:
