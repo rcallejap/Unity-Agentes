@@ -109,28 +109,28 @@ public class AgentController : MonoBehaviour
         semaforos[0] = Instantiate(SemaforoPrefav, new Vector3(21f, .4f, 24.3f), Quaternion.identity);
         semaforos[0].transform.localScale = new Vector3(.3f, .3f, .3f);
         semaforos[0].transform.Rotate(-90, 0, -30);
-        semaforos[0].transform.Find("Green").gameObject.SetActive(true);
-        semaforos[0].transform.Find("Red").gameObject.SetActive(true);
+        semaforos[0].transform.Find("Green").gameObject.SetActive(false);
+        semaforos[0].transform.Find("Red").gameObject.SetActive(false);
 
         semaforos[1] = Instantiate(SemaforoPrefav, new Vector3(-6.81f, .4f, -3.48f), Quaternion.identity);
         semaforos[1].transform.localScale = new Vector3(.3f, .3f, .3f);
         semaforos[1].transform.Rotate(-90, 0, 45);
-        semaforos[1].transform.Find("Green").gameObject.SetActive(true);
-        semaforos[1].transform.Find("Red").gameObject.SetActive(true);
+        semaforos[1].transform.Find("Green").gameObject.SetActive(false);
+        semaforos[1].transform.Find("Red").gameObject.SetActive(false);
         
 
         semaforos[2] = Instantiate(SemaforoPrefav, new Vector3(-56f, .4f, 35.4f), Quaternion.identity);
         semaforos[2].transform.localScale = new Vector3(.3f, .3f, .3f);
         semaforos[2].transform.Rotate(-90, 0, 140);
-        semaforos[2].transform.Find("Green").gameObject.SetActive(true);
-        semaforos[2].transform.Find("Red").gameObject.SetActive(true);
+        semaforos[2].transform.Find("Green").gameObject.SetActive(false);
+        semaforos[2].transform.Find("Red").gameObject.SetActive(false);
         
         
         semaforos[3] = Instantiate(SemaforoPrefav, new Vector3(-3.39f, .4f, 71.35f), Quaternion.identity);
         semaforos[3].transform.localScale = new Vector3(.3f, .3f, .3f);
         semaforos[3].transform.Rotate(-90, 0, 235);
-        semaforos[3].transform.Find("Green").gameObject.SetActive(true);
-        semaforos[3].transform.Find("Red").gameObject.SetActive(true);
+        semaforos[3].transform.Find("Green").gameObject.SetActive(false);
+        semaforos[3].transform.Find("Red").gameObject.SetActive(false);
     }
 
 
