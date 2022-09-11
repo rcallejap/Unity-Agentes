@@ -8,8 +8,20 @@ Programa en Unity que crea un modelo a escala del distrito Tec. Es complemento d
 
 <img src = "img_rectoria.PNG">
 
+# Proceso de instalación y ejecución del programa
+<ol>
+  <li> Descargar Pygame desde la terminal</li>
+  <li>Importar los dos repositorios del proyecto:</li>
+  <ul>
+    <li>https://github.com/Fuentes2395/PythonModelTrafficTec</li>
+    <li>https://github.com/rcallejap/Unity-Agentes</li>
+  </ul>
+  <li>Correr primeramente el programa en python (PythonModelTrafficTec) y después el de Unity (Unity-Agentes)</li>
 
-Referencias y paquetes importados:
+</ol>
+
+
+# Referencias y paquetes importados:
 <ul>
  <li>Modular Lowpoly Street: https://assetstore.unity.com/packages/3d/environments/urban/modular-lowpoly-streets-free-192094</li>
  <li>Low Poly Cars: https://assetstore.unity.com/packages/3d/vehicles/land/low-poly-cars-101798</li>
